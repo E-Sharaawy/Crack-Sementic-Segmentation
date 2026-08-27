@@ -26,7 +26,7 @@ pip install -r requirements-dev.txt
 python generate_synthetic_data.py --samples 200
 python train.py --epochs 10
 python predict.py data/synthetic/images/sample_0000.png
-pytest -q
+python -m pytest -q
 ```
 
 The trained checkpoint is written to `checkpoints/tiny_unet.pt`, and inference writes a mask to `outputs/predicted_mask.png`.
