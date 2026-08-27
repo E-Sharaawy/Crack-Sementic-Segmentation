@@ -1,0 +1,2 @@
+"""Compact crack-segmentation package."""
+
